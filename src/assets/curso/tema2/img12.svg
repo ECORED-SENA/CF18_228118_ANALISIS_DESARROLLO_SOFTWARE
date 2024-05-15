@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="103" height="103" viewBox="0 0 103 103">
+  <defs>
+    <filter id="Elipse_11593" x="0" y="0" width="103" height="103" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1102061" data-name="Grupo 1102061" transform="translate(-1221 -3994)">
+    <g transform="matrix(1, 0, 0, 1, 1221, 3994)" filter="url(#Elipse_11593)">
+      <circle id="Elipse_11593-2" data-name="Elipse 11593" cx="42.5" cy="42.5" r="42.5" transform="translate(9 9)" fill="#00ffdf"/>
+    </g>
+    <path id="Trazado_877217" data-name="Trazado 877217" d="M1.452,0H7.767C11.76,0,13.72-2.214,13.72-6.279V-19.128c0-4.065-1.96-6.279-5.953-6.279H1.452ZM7.695-21.777c1.27,0,2.033.653,2.033,2.468V-6.1c0,1.815-.762,2.468-2.033,2.468H5.444V-21.777Z" transform="translate(1265 4056.5)" fill="#0b47db"/>
+    <g id="Elipse_11597" data-name="Elipse 11597" transform="translate(1238 4011)" fill="none" stroke="#0b47db" stroke-width="1">
+      <circle cx="34.5" cy="34.5" r="34.5" stroke="none"/>
+      <circle cx="34.5" cy="34.5" r="34" fill="none"/>
+    </g>
+  </g>
+</svg>

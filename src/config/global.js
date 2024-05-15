@@ -140,32 +140,109 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Implementación de clases y objetos java',
+      referencia:
+        'Códigos de Programación - MR. (2017). <i>Curso Java - 7: Clases, Métodos y Objetos</i>.',
+      tipo: 'Video',
+      link: 'https://youtu.be/Z6ispQvMy8s?feature=shared',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Sobrecarga de métodos (<i>overload</i>)',
+      referencia:
+        'Códigos de Programación - MR. (2017). <i>Curso Java - 8: Constructores y Sobrecarga de Métodos</i>.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=_DUSaU58GDk&ab_channel=C%C3%B3digosdeProgramaci%C3%B3n-MR',
+    },
+    {
+      tema: 'Comunicación entre clases',
+      referencia:
+        'TodoCode. (2022). <i>RELACIONES entre CLASES en JAVA POO</i>.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=XKk5k9OrAUg&ab_channel=TodoCode',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Agregación',
+      significado:
+        'tipo especial de asociación que representa una relación "parte de" donde las partes pueden existir independientemente del todo.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Asociación',
+      significado:
+        'relación entre dos objetos en la que uno utiliza las capacidades o servicios del otro.',
+    },
+    {
+      termino: '<i>Bytecode</i>',
+      significado:
+        'código intermedio más abstracto que el código máquina, que es ejecutado por la JVM.',
+    },
+    {
+      termino: 'Clases',
+      significado:
+        'estructuras fundamentales de la POO que definen las propiedades y comportamientos de los objetos.',
+    },
+    {
+      termino: 'Composición',
+      significado:
+        'forma de agregación con una relación más fuerte donde las partes no pueden existir independientemente del todo.',
+    },
+    {
+      termino: 'Herencia',
+      significado:
+        'característica de la POO que permite que una clase derive de otra, heredando sus métodos y atributos.',
+    },
+    {
+      termino: 'Java',
+      significado:
+        'lenguaje de programación orientado a objetos, independiente de la plataforma, que compila a <i>bytecode</i>, el cual se ejecuta en la Máquina Virtual de Java (JVM).',
+    },
+    {
+      termino: 'JVM (Máquina Virtual de Java)',
+      significado:
+        'entorno de ejecución para programas Java que permite la portabilidad del código entre diferentes plataformas.',
+    },
+    {
+      termino: 'Objetos',
+      significado:
+        'instancias de clases que contienen datos y comportamientos definidos por su clase.',
+    },
+    {
+      termino: 'Polimorfismo (Ligadura Dinámica)',
+      significado:
+        'capacidad de una variable de tipo base para referirse a objetos de tipos derivados, permitiendo que se ejecuten diferentes métodos a través de una interfaz común.',
+    },
+    {
+      termino: 'POO (Programación Orientada a Objetos)',
+      significado:
+        'paradigma de programación que utiliza objetos y sus interacciones para diseñar aplicaciones y programas informáticos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Archivo General de la Nación (2022). Guía para la formulación de un esquema de metadatos para la gestión de documentos. ',
+      link:
+        'https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/5_Consulte/Recursos/Publicacionees/GuiaDeMetadatos.pdf',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación. (2022). Normas técnicas de la información y seguridad de la familia ISO 27000. Icontec. ',
+      link:
+        'https://www.icontec.org/servicio-educacion/modulares-de-educacion/',
+    },
+    {
+      referencia:
+        'Ministerio de Educación. (2022). Guía para la clasificación de la información. ',
+      link:
+        'https://www.mineducacion.gov.co/1759/articles-407695_galeria_14.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Tecnologías de la Información y Comunicaciones - MinTIC. (2022). Entidades del sector. MinTIC. ',
+      link:
+        'https://www.mintic.gov.co/portal/inicio/Ministerio/Entidades-del-sector/',
     },
   ],
   creditos: [
@@ -188,8 +265,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Zulema León Escobar',
+          cargo: 'Experta Temática',
+          centro: 'Grupo De Apoyo Administrativo - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -198,50 +280,50 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Juan Daniel Polanco Muñoz',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Álvarez',
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
+          nombre: 'Edgar Mauricio Cortés García',
           cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
+        //{
+        //  nombre: 'Nombre',
+        //  cargo: 'Animador y Producción audiovisual',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
       ],
     },
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Luis Gabriel Urueta Alvarez',
+        //  cargo: 'Validador de Recursos Educativos Digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
+        //{
+        //  nombre: 'Jaime Hernán Tejada Llano',
+        //  cargo: 'Validador de Recursos Educativos Digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
-        {
-          nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Margarita Marcela Medrano Gómez',
+        //  cargo: 'Evaluador para contenidos inclusivos y accesibles',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
       ],
     },
   ],
