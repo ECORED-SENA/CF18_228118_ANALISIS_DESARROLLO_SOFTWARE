@@ -12,7 +12,7 @@
         figure
           img(src='@/assets/curso/intro/img1.png', style="width:280px" alt='').m-auto
       .col-lg-9(data-aos="fade-left")
-        p #[b La Programación Orientada a Objetos (POO)] se caracteriza por aplicar principios de abstracción, encapsulación, herencia y polimorfismo. En POO, los datos (atributos) y los métodos (comportamientos) se encapsulan dentro de objetos relacionados entre sí, permitiendo la ocultación de detalles de implementación. Esta ocultación es fundamental, ya que, similar a cómo se puede manejar una moto sin conocer el funcionamiento interno de sus sistemas, en la ingeniería de software permite la comunicación entre objetos a través de interfaces definidas sin revelar cómo están implementados otros objetos.
+        p #[b La Programación Orientada a Objetos (POO)] se caracteriza por aplicar principios de abstracción, encapsulación, herencia y polimorfismo. En POO, los datos (atributos) y los métodos (comportamientos) se encapsulan dentro de objetos relacionados entre sí, permitiendo la ocultación de detalles de implementación. Esta ocultación es fundamental, ya que, similar a cómo se puede manejar una moto sin conocer el funcionamiento interno de sus sistemas, en la ingeniería de #[i software] permite la comunicación entre objetos a través de interfaces definidas sin revelar cómo están implementados otros objetos.
         p.mb-0 Este componente formativo ofrece una inmersión en los principios y aplicaciones de la Programación Orientada a Objetos, guiando a los estudiantes a través de los siguientes aspectos clave:
     .row.bg-c1
       .col-12
@@ -44,7 +44,7 @@
                               | Métodos accesores y modificadores, esenciales para la manipulación de datos.
                             li.d-flex
                               i.fas.fa-code(style="color:#1682FB")
-                              | Sobrecarga de métodos (overload), facilitando la flexibilidad y reutilización de código.
+                              | Sobrecarga de métodos (#[i overload]), facilitando la flexibilidad y reutilización de código.
                       .col-12
                         .p-3.bg-c3
                           p #[b Exploración de la comunicación entre clases mediante:]

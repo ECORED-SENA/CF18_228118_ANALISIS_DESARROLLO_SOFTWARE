@@ -36,6 +36,7 @@
             .p-4.bg-c37
               p.text-center #[b Generalización/Especialización (Herencia)]
               p.mb-0 Expresa una jerarquía entre clases donde una clase derivada (subclase) hereda comportamientos y atributos de una clase base (superclase), permitiendo la reutilización y extensión de código.
+    #t_3_1
     .row.mb-4(data-aos="fade-down")
       .col-auto.bg-c12
         .px-3.pb-0
@@ -128,6 +129,7 @@
                       p.mb-0     }
                       p.mb-0 }
           p En este código, tanto la clase #[b Cliente] como la clase #[b Cuenta] tienen métodos que permiten vincular una a la otra. Es importante manejar estas referencias cuidadosamente para evitar bucles infinitos o inconsistencias en las relaciones. Cuando se establece la vinculación desde una instancia de #[b Cliente] a #[b Cuenta], también se llama a un método en #[b Cuenta] para establecer la vinculación inversa, asegurando así una asociación bidireccional coherente.
+    #t_3_2
     .row.mb-4(data-aos="fade-down")
       .col-auto.bg-c12
         .px-3.pb-0
@@ -147,6 +149,7 @@
                 img(src='@/assets/curso/tema3/img1.svg', style="width:90px" alt='').m-auto
             .col
               p.mb-0 En Java, la composición se implementa creando una clase que contiene objetos de otras clases como atributos privados, inicializándolos generalmente dentro del constructor de la clase contenedora para asegurar el acoplamiento de sus ciclos de vida.
+    #t_3_3
     .row.mb-4(data-aos="fade-down")
       .col-auto.bg-c12
         .px-3.pb-0

@@ -50,16 +50,16 @@
                         ul.lista-ul.mb-0
                           li.d-flex
                             i.fas.fa-code(style="color:#1682FB")
-                            | #[b Herencia]
+                            | #[b Herencia].
                           li.d-flex
                             i.fas.fa-code(style="color:#1682FB")
-                            | #[b Ligadura dinámica]
+                            | #[b Ligadura dinámica].
                           li.d-flex
                             i.fas.fa-code(style="color:#1682FB")
-                            | #[b Características basadas en objetos]
+                            | #[b Características basadas en objetos].
           .row.align-items-center.mb-5
             .col-lg-10.order-2.order-lg-1(data-aos="fade-right")
-              p Entre los lenguajes que incluyen soporte para la programación orientada a objetos se cuentan C++, Smalltalk, Object Pascal y Java. Existe una amplia variedad de lenguajes de programación que ofrecen funcionalidades tanto de programación basada en objetos como de orientación a objetos. En particular, Java es un lenguaje de programación orientado a objetos que fue desarrollado por Sun Microsystems y lanzado en 1995. Java compila el código fuente en un bytecode que es ejecutado por la Máquina Virtual de Java (JVM), lo que lo diferencia de lenguajes como C y C++, que son principalmente compilados a código máquina y no interpretados. Java combina características de lenguajes interpretados a través de su JVM, garantizando portabilidad y eficiencia en la ejecución de sus programas.
+              p Entre los lenguajes que incluyen soporte para la programación orientada a objetos se cuentan C++, Smalltalk, Object Pascal y Java. Existe una amplia variedad de lenguajes de programación que ofrecen funcionalidades tanto de programación basada en objetos como de orientación a objetos. En particular, Java es un lenguaje de programación orientado a objetos que fue desarrollado por Sun Microsystems y lanzado en 1995. Java compila el código fuente en un #[i bytecode] que es ejecutado por la Máquina Virtual de Java (JVM), lo que lo diferencia de lenguajes como C y C++, que son principalmente compilados a código máquina y no interpretados. Java combina características de lenguajes interpretados a través de su JVM, garantizando portabilidad y eficiencia en la ejecución de sus programas.
               p.mb-0 Sus características principales son:
             .col-lg-2.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
@@ -90,7 +90,7 @@
                   .col
                     .p-3.bg-c9
                       p.ps-0.ps-sm-4.mb-0 #[b Independiente de la arquitectura y portable]
-                      p.ps-0.ps-sm-4.mb-0 Al compilar un programa en Java, se obtiene un tipo de código binario conocido como Java Bytecode. Este código es interpretable por diferentes computadoras de igual manera. Como el código compilado de Java es interpretado, un programa compilado de Java puede ser utilizado por cualquier computadora que tenga implementado el intérprete de Java.
+                      p.ps-0.ps-sm-4.mb-0 Al compilar un programa en Java, se obtiene un tipo de código binario conocido como Java #[i Bytecode]. Este código es interpretable por diferentes computadoras de igual manera. Como el código compilado de Java es interpretado, un programa compilado de Java puede ser utilizado por cualquier computadora que tenga implementado el intérprete de Java.
                 .row.mb-3
                   .col-md-auto.mt-2(style="z-index: 2")
                     figure

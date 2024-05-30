@@ -55,22 +55,22 @@
           ul.lista-ul.mb-0
             li.d-flex
               i.fas.fa-code(style="color:#1682FB")
-              | Paquete
+              | Paquete.
             li.d-flex
               i.fas.fa-code(style="color:#1682FB")
-              | Comentarios
+              | Comentarios.
             li.d-flex
               i.fas.fa-code(style="color:#1682FB")
-              | Definición de clases
+              | Definición de clases.
             li.d-flex
               i.fas.fa-code(style="color:#1682FB")
-              | Atributos
+              | Atributos.
             li.d-flex
               i.fas.fa-code(style="color:#1682FB")
-              | Constructores
+              | Constructores.
             li.d-flex
               i.fas.fa-code(style="color:#1682FB")
-              | Métodos
+              | Métodos.
     .row.bg-c16
       .col-12
         .p-5
@@ -155,7 +155,7 @@
                           p.mb-0 20
                           p.mb-0 21
                           p.mb-0 22
-                          p.mb-0 13
+                          p.mb-0 23
                           p.mb-0 24
                           p.mb-0 25
                           p.mb-0 26
@@ -217,12 +217,14 @@
           p Indica que los atributos son accesibles dentro del mismo paquete o sub-clases en paquetes diferentes. Al heredar si se puede usar desde la clase derivada.
       .col-10.col-md-8.col-lg-3
         .p-4.bg-c22.h-100
-          p.text-center #[b #[i Tipo]]
+          p.text-center #[b Tipo]
           p Es el tipo de la variable, pudiendo ser un tipo básico o un objeto.
     p.mb-5(data-aos="fade-right") A continuación, se relacionan los tipos de datos que existen en Java:
     .row.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c5
+          .titulo-sexto.color-acento-contenido
+            p.mb-0 #[b Tabla 3.] Tipos de datos en Java
           .tabla-a.color-primario
             table
               thead
@@ -262,32 +264,32 @@
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img8.svg', style="width:390px" alt='').m-auto
-    p.mb-5(data-aos="fade-right") El nombre que se asigna a una variable, conocido como nombreVariable, debe adherirse a ciertas convenciones en Java:
+    p.mb-5(data-aos="fade-right") El nombre que se asigna a una variable, conocido como #[b nombreVariable], debe adherirse a ciertas convenciones en Java:
     .row.mb-2(data-aos="fade-down")
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/img9.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .p-4
-              p.mb-0 Los nombres de las variables deben comenzar con una letra minúscula. En el caso de nombres compuestos, se emplea la nomenclatura camelCase, donde la primera letra de cada palabra subsiguiente es mayúscula.
+              p.mb-0 #[b A.] Los nombres de las variables deben comenzar con una letra minúscula. En el caso de nombres compuestos, se emplea la nomenclatura camelCase, donde la primera letra de cada palabra subsiguiente es mayúscula.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/img10.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .p-4
-              p.mb-0 Los nombres de variables no pueden contener espacios, iniciar con números ni incluir caracteres especiales.
+              p.mb-0 #[b B.] Los nombres de variables no pueden contener espacios, iniciar con números ni incluir caracteres especiales.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/img11.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .p-4
-              p.mb-0 No se permite que una variable tenga el mismo nombre que una palabra clave reservada por el lenguaje.
+              p.mb-0 #[b C.] No se permite que una variable tenga el mismo nombre que una palabra clave reservada por el lenguaje.
       .col-md-6.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/img12.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .p-4
-              p.mb-0 Dentro de un mismo ámbito, cada variable debe tener un nombre único y no puede repetirse el nombre de otras variables previamente declaradas.
+              p.mb-0 #[b D.] Dentro de un mismo ámbito, cada variable debe tener un nombre único y no puede repetirse el nombre de otras variables previamente declaradas.
     .row.bg-c23
       .col-12
         .p-5
@@ -300,9 +302,12 @@
                     p.mb-0 #[b Ejemplo variable datos Java]
                 .col-12
                   .px-4.py-3.bg-c25
-                    p.mb-0 -primerNombre
-                    p.mb-0 -apellidoCliente
-                    p -edad
+                    .row.mb-3
+                      .col-auto
+                        .p-2.bg-c26
+                          p.mb-0 -primerNombre
+                          p.mb-0 -apellidoCliente
+                          p.mb-0 -edad
                     p.mb-0 La explicación indica que se puede inicializar una variable con un valor utilizando el formato = #[b valorInicial];
               p.mb-4 Ejemplo variable datos Java:
               .row.mb-4
@@ -389,7 +394,7 @@
                       p.mb-0 {
                       p.mb-0     return edad;
                       p.mb-0 }
-              p.mb-0 Este es un método público que retorna un valor entero, cuyo nombre es obtenerEdad, no recibe parámetros y devuelve la edad.
+              p.mb-0 Este es un método público que retorna un valor entero, cuyo nombre es #[i obtenerEdad], no recibe parámetros y devuelve la edad.
       .col-lg-6(data-aos="fade-left")
         p Ejemplo listado de parámetros:
         .row
@@ -406,14 +411,14 @@
                       p.mb-0 {
                       p.mb-0     edad = laEdad;
                       p.mb-0 }
-              p.mb-0 Este es un método público que no retorna ningún valor porque tiene la palabra reservada void, su nombre es cambiarEdad y recibe un parámetro de tipo entero, en el cuerpo del método asigna a la variable edad el valor del parámetro que viene almacenado en la variable laEdad.
+              p.mb-0 Este es un método público que no retorna ningún valor porque tiene la palabra reservada #[i void], su nombre es #[i cambiarEdad] y recibe un parámetro de tipo entero, en el cuerpo del método asigna a la variable edad el valor del parámetro que viene almacenado en la variable #[i laEdad].
     Separador
     #t_2_2
     .titulo-segundo.color-acento-contenido
       h2 2.2 Constructores y destructores
     .row.align-items-end.mb-4
       .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
-        p p El constructor de una clase es un método diseñado específicamente para inicializar los objetos de dicha clase. Por otro lado, un destructor es un método que se invoca automáticamente cuando el objeto es destruido. Se utiliza un constructor al instanciar un objeto para inicializar sus variables con valores adecuados. Un constructor, que es un método especial de la clase, tiene las siguientes características:
+        p El constructor de una clase es un método diseñado específicamente para inicializar los objetos de dicha clase. Por otro lado, un destructor es un método que se invoca automáticamente cuando el objeto es destruido. Se utiliza un constructor al instanciar un objeto para inicializar sus variables con valores adecuados. Un constructor, que es un método especial de la clase, tiene las siguientes características:
         p #[b El nombre del constructor coincide con el nombre de la clase.]
         .row
           .col-12
@@ -454,7 +459,7 @@
               p - #[span.txt-c5 #[b modificadorDeVisibilidad]] indica si el constructor es public, private o protected, siguiendo las mismas normas que para los atributos y métodos.
               p - #[span.txt-c6 #[b NombreDelConstructor]] debe coincidir con el nombre de la clase.
               p.mb-0 - #[span.txt-c7 #[b listaDeParámetros]] es la enumeración de parámetros que el constructor acepta, separados por comas y definidos por su tipo y nombre, por ejemplo, (int a, int b).
-          p.mb-5(data-aos="fade-right") En el ejemplo de la clase #[b Producto], se crea un constructor público llamado Producto con una lista de parámetros. Este constructor asigna los valores de los parámetros a las variables de instancia de la clase. La palabra reservada #[b #[i this]] se utiliza para referirse a los miembros de la propia clase en el objeto actual.
+          p.mb-5(data-aos="fade-right") En el ejemplo de la clase #[b Producto], se crea un constructor público llamado Producto con una lista de parámetros. Este constructor asigna los valores de los parámetros a las variables de instancia de la clase. La palabra reservada #[b this] se utiliza para referirse a los miembros de la propia clase en el objeto actual.
           .row.justify-content-center.mb-5
             .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
               .row
@@ -487,7 +492,7 @@
     #t_2_3
     .titulo-segundo.color-acento-contenido
       h2 2.3 Métodos accesores y modificadores
-    p.mb-5(data-aos="fade-right") En la programación orientada a objetos, existen dos tipos fundamentales de modificadores de acceso para los miembros de una clase: público (public) y privado (private).
+    p.mb-5(data-aos="fade-right") En la programación orientada a objetos, existen dos tipos fundamentales de modificadores de acceso para los miembros de una clase: público (#[i public]) y privado (#[i private]).
     .row.mb-5
       .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -513,14 +518,17 @@
                   img(src='@/assets/curso/tema2/img22.svg', style="width:120px" alt='')
                 p #[b Predeterminado (#[i default])]
                 p Cuando no se especifica un modificador de acceso para una clase, método o miembro de datos, se aplica el modificador de acceso predeterminado por defecto. Los miembros de datos, clases o métodos con acceso predeterminado son accesibles solo dentro del mismo paquete. 
-                p.mb-0 Por ejemplo, la clase Producto y el método mostrar, al tener modificador de acceso predeterminado, no pueden ser accedidos desde otro paquete.
+                p.mb-0 Por ejemplo, la clase #[b Producto] y el método mostrar, al tener modificador de acceso predeterminado, no pueden ser accedidos desde otro paquete.
             .col-11.col-md-8.col-lg-6.mb-5
               .px-4.pb-4.bg-c35.shadow
                 figure.fig-p2
                   img(src='@/assets/curso/tema2/img23.svg', style="width:120px" alt='')
                 p #[b Privado (#[i private])]
                 p Se indica con la palabra clave “private”. Los métodos o miembros de datos declarados como privados son accesibles únicamente dentro de la clase donde se declaran.
-                p -Ninguna otra clase del mismo paquete puede acceder a los miembros privados.
+                ul.lista-ul.ms-3.mb-0
+                  li.d-flex
+                    i.fas.fa-code(style="color:#1682FB")
+                    | Ninguna otra clase del mismo paquete puede acceder a los miembros privados.
                 p.mb-0 Las clases e interfaces no pueden declararse como privadas.
             .col-11.col-md-8.col-lg-6.mb-5
               .px-4.pb-4.bg-c35.shadow.h-100
@@ -546,13 +554,18 @@
                   .col
                     h3.text-white Métodos accesores (#[i get], #[i set])
           p.mb-5(data-aos="fade-right") Los métodos accesores permiten obtener o modificar los atributos de un objeto y se clasifican en dos tipos: #[b #[i “get”]] y #[b #[i “set”]].
-          .row.mb-5
+          .row.align-items-center.mb-5
             .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
               .row
                 .col-12
                   .p-4.bg-c36
-                    p.mb-0 - Los métodos “get” permiten acceder al valor de un atributo.
-                    p.mb-0 - Los métodos “set” permiten modificar el valor de un atributo.
+                    ul.lista-ul.mb-0
+                      li.d-flex
+                        i.fas.fa-code(style="color:#1682FB")
+                        | Los métodos “get” permiten acceder al valor de un atributo.
+                      li.d-flex
+                        i.fas.fa-code(style="color:#1682FB")
+                        | Los métodos “set” permiten modificar el valor de un atributo.
             .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema2/img26.svg', style="width:290px" alt='').m-auto
