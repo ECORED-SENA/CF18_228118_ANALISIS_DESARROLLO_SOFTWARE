@@ -309,7 +309,7 @@
                           p.mb-0 -apellidoCliente
                           p.mb-0 -edad
                     p.mb-0 La explicación indica que se puede inicializar una variable con un valor utilizando el formato = #[b valorInicial];
-              p.mb-4 Ejemplo variable datos Java:
+
               .row.mb-4
                 .col-12
                   .px-4.py-3.bg-c24

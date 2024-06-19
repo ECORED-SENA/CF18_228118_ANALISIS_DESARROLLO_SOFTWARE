@@ -43,7 +43,7 @@
                   figure
                     img(src='@/assets/curso/tema1/img1.png', style="width:250px" alt='').m-auto
                 .col-lg-9(data-aos="fade-left")
-                  p Las características programación orientada a objetos son:
+                  p Las características de programación orientada a objetos son:
                   .row
                     .col-12
                       .p-3.bg-c8
