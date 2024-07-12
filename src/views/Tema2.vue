@@ -31,7 +31,7 @@
                       span.text-bold b. 
                       | Se debe utilizar la nomenclatura camelCase para nombres compuestos, donde la primera letra de cada palabra interna es mayúscula; por ejemplo, "CuentaAhorros".
                     li.d-flex
-                      span.text-bold a. 
+                      span.text-bold c. 
                       | Los nombres de las clases deben ser sustantivos, indicativos de lo que representan.
       .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
